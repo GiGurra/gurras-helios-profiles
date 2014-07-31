@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HeliosProfile>
+  <Version>3</Version>
+  <Monitors>
+    <Monitor>
+      <Location>0,0</Location>
+      <Size>1920,1080</Size>
+      <Hidden>False</Hidden>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <AlwaysOnTop>False</AlwaysOnTop>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children>
+        <Control TypeIdentifier="Helios.F16.Altimeter" Name="Altimeter" SnapTarget="True" Locked="False">
+          <Location>559,20</Location>
+          <Size>364,376</Size>
+          <Hidden>False</Hidden>
+          <Children />
+        </Control>
+      </Children>
+    </Monitor>
+    <Monitor>
+      <Location>4992,0</Location>
+      <Size>1024,768</Size>
+      <Hidden>False</Hidden>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <AlwaysOnTop>True</AlwaysOnTop>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>1920,0</Location>
+      <Size>3072,768</Size>
+      <Hidden>False</Hidden>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <AlwaysOnTop>True</AlwaysOnTop>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>6016,0</Location>
+      <Size>768,1024</Size>
+      <Hidden>False</Hidden>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <AlwaysOnTop>True</AlwaysOnTop>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+  </Monitors>
+  <Interfaces>
+    <Interface TypeIdentifier="Helios.Base.Keyboard" Name="Keyboard">
+      <KeyDelay>30</KeyDelay>
+    </Interface>
+    <Interface TypeIdentifier="Helios.Base.ProfileInterface" Name="Profile" />
+    <Interface TypeIdentifier="Helios.Falcon.Interface" Name="Falcon">
+      <FalconType>BMS</FalconType>
+      <KeyFile>User\Config\BMS.key</KeyFile>
+      <CockpitDatFile />
+    </Interface>
+  </Interfaces>
+  <Bindings>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Altimeter.barimetric pressure.changed" />
+      <Action Target="Visual;Monitor 1.Altimeter;Helios.F16.Altimeter;Altimeter" Name="set.air pressure" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Altimeter.altitidue.changed" />
+      <Action Target="Visual;Monitor 1.Altimeter;Helios.F16.Altimeter;Altimeter" Name="set.altitude" />
+      <TriggerValue />
+    </Binding>
+  </Bindings>
+</HeliosProfile>

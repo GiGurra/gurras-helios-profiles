@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HeliosProfile>
+  <Version>3</Version>
+  <Monitors>
+    <Monitor>
+      <Location>0,0</Location>
+      <Size>1920,1200</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background />
+      <Children>
+        <Control TypeIdentifier="Helios.Panel" Name="_1024x768_panel" SnapTarget="True" Locked="False">
+          <Location>0,0</Location>
+          <Size>1024,768</Size>
+          <Hidden>False</Hidden>
+          <Background />
+          <Children>
+            <Control TypeIdentifier="Helios.Panel" Name="Left1" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>False</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Left2" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Left3" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Left4" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Left5" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Left6" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Left7" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Left8" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Right1" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Right2" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Right3" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Right4" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Right5" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Right6" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Right7" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Right8" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>1024,768</Size>
+              <Hidden>True</Hidden>
+              <Background>
+                <Color>#FF1E1E20</Color>
+                <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Border>
+                <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+                <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+                <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+                <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+                <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+                <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+                <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+                <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+              </Border>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Left1" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Left2" SnapTarget="True" Locked="False">
+              <Location>0,89</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Left3" SnapTarget="True" Locked="False">
+              <Location>0,178</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Left4" SnapTarget="True" Locked="False">
+              <Location>0,267</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Left5" SnapTarget="True" Locked="False">
+              <Location>0,356</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Left6" SnapTarget="True" Locked="False">
+              <Location>0,445</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Left7" SnapTarget="True" Locked="False">
+              <Location>0,534</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Left8" SnapTarget="True" Locked="False">
+              <Location>0,623</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Right1" SnapTarget="True" Locked="False">
+              <Location>951,0</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Right2" SnapTarget="True" Locked="False">
+              <Location>951,89</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Right3" SnapTarget="True" Locked="False">
+              <Location>951,178</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Right4" SnapTarget="True" Locked="False">
+              <Location>951,267</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Right5" SnapTarget="True" Locked="False">
+              <Location>951,356</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Right6" SnapTarget="True" Locked="False">
+              <Location>951,445</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Right7" SnapTarget="True" Locked="False">
+              <Location>951,534</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button Right8" SnapTarget="True" Locked="False">
+              <Location>951,623</Location>
+              <Size>73,89</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="HideButtonsButton" SnapTarget="True" Locked="False">
+              <Location>3,719</Location>
+              <Size>86,44</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>20</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>Menu</Text>
+              </Text>
+              <Children />
+            </Control>
+          </Children>
+        </Control>
+      </Children>
+    </Monitor>
+    <Monitor>
+      <Location>1920,0</Location>
+      <Size>1920,1080</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>2944,1848</Location>
+      <Size>600,800</Size>
+      <Orientation>DMDO_90</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>1920,1080</Location>
+      <Size>1024,768</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>2944,1080</Location>
+      <Size>1024,768</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>3968,1080</Location>
+      <Size>1024,768</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+  </Monitors>
+  <Interfaces>
+    <Interface TypeIdentifier="Helios.Base.ProfileInterface" Name="Profile" />
+    <Interface TypeIdentifier="Helios.Base.Keyboard" Name="Keyboard">
+      <KeyDelay>30</KeyDelay>
+    </Interface>
+  </Interfaces>
+  <Bindings>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left3;Helios.Panel;Left3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left4;Helios.Panel;Left4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left5;Helios.Panel;Left5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left6;Helios.Panel;Left6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left7;Helios.Panel;Left7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left8;Helios.Panel;Left8" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right1;Helios.Panel;Right1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right2;Helios.Panel;Right2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right3;Helios.Panel;Right3" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right4;Helios.Panel;Right4" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right5;Helios.Panel;Right5" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right6;Helios.Panel;Right6" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right7;Helios.Panel;Right7" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Right8;Helios.Panel;Right8" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left1;Helios.Panel;Left1" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Left2;Helios.Panel;Left2" Name="set.hidden" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Left1;Helios.Base.PushButton;Push Button Left1" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Left3;Helios.Base.PushButton;Push Button Left3" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Left4;Helios.Base.PushButton;Push Button Left4" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Left5;Helios.Base.PushButton;Push Button Left5" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Left6;Helios.Base.PushButton;Push Button Left6" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Left7;Helios.Base.PushButton;Push Button Left7" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Left8;Helios.Base.PushButton;Push Button Left8" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Left2;Helios.Base.PushButton;Push Button Left2" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Right8;Helios.Base.PushButton;Push Button Right8" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Right7;Helios.Base.PushButton;Push Button Right7" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Right6;Helios.Base.PushButton;Push Button Right6" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Right5;Helios.Base.PushButton;Push Button Right5" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Right4;Helios.Base.PushButton;Push Button Right4" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Right3;Helios.Base.PushButton;Push Button Right3" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Right2;Helios.Base.PushButton;Push Button Right2" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1._1024x768_panel.HideButtonsButton;Helios.Base.PushButton;HideButtonsButton" Name="pushed" />
+      <Action Target="Visual;Monitor 1._1024x768_panel.Push Button Right1;Helios.Base.PushButton;Push Button Right1" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+  </Bindings>
+</HeliosProfile>

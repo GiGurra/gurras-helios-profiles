@@ -1,0 +1,43 @@
+<DockingManager version="1.3.0">
+    <ResizingPanel ResizeWidth="*" ResizeHeight="*" EffectiveSize="0,0" Orientation="Vertical">
+        <ResizingPanel ResizeWidth="*" ResizeHeight="*" EffectiveSize="1578,585.02" Orientation="Horizontal">
+            <ResizingPanel ResizeWidth="309" ResizeHeight="*" EffectiveSize="309,585.02" Orientation="Vertical">
+                <DockablePane ResizeWidth="0.349573104088541*" ResizeHeight="0.310442759858337*" EffectiveSize="309,202.409818729347" ID="e57b58e6-5e15-4c28-963b-db1a92a4d071" Anchor="Left" IsAutoHidden="false">
+                    <DockableContent Name="Tool;ProfileExplorer" FloatingWindowSize="250,400" ChildIndex="2" Width="300" Height="1028,04" Anchor="Left" State="Docked" />
+                </DockablePane>
+                <DockablePane ResizeWidth="0.650426895911459*" ResizeHeight="0.577619726149474*" EffectiveSize="309,376.610181270653" ID="a89b9d9c-41d3-49e5-a80e-ab21a48e509f" Anchor="Left" SelectedIndex="0" IsAutoHidden="false">
+                    <DockableContent Name="Tool;Toolbox" FloatingWindowSize="250,400" />
+                    <DockableContent Name="Tool;Preview" FloatingWindowSize="250,400" ChildIndex="0" Width="300" Height="180" Anchor="Left" State="Docked" />
+                </DockablePane>
+            </ResizingPanel>
+            <ResizingPanel ResizeWidth="*" ResizeHeight="*" EffectiveSize="1263,585.02" Orientation="Horizontal">
+                <ResizingPanel ResizeWidth="*" ResizeHeight="*" EffectiveSize="988,585.02" Orientation="Vertical">
+                    <ResizingPanel ResizeWidth="*" ResizeHeight="*" EffectiveSize="988,585.02" Orientation="Horizontal">
+                        <DocumentPaneResizingPanel ResizeWidth="*" ResizeHeight="*" EffectiveSize="732,585.02" Orientation="Horizontal">
+                            <DocumentPane IsMain="true" SelectedIndex="3" ResizeWidth="*" ResizeHeight="0.548987158473697*" EffectiveSize="732,585.02">
+                                <DocumentContent Name="Visual;Monitor 6;Helios.Monitor;Monitor 6" />
+                                <DocumentContent Name="Visual;Monitor 5;Helios.Monitor;Monitor 5" />
+                                <DocumentContent Name="Visual;Monitor 4;Helios.Monitor;Monitor 4" />
+                                <DocumentContent Name="Visual;Monitor 3;Helios.Monitor;Monitor 3" />
+                                <DocumentContent Name="Visual;Monitor 1;Helios.Monitor;Monitor 1" />
+                            </DocumentPane>
+                        </DocumentPaneResizingPanel>
+                        <DockablePane ResizeWidth="250" ResizeHeight="*" EffectiveSize="250,585.02" ID="f0e47097-c94e-4606-8d6e-ed59814f2276" Anchor="Right" IsAutoHidden="false">
+                            <DockableContent Name="Tool;Properties" FloatingWindowSize="250,400" ChildIndex="1" Width="421" Height="755,02" Anchor="Right" State="Docked" />
+                        </DockablePane>
+                    </ResizingPanel>
+                </ResizingPanel>
+                <ResizingPanel ResizeWidth="269" ResizeHeight="*" EffectiveSize="269,585.02" Orientation="Vertical">
+                    <DockablePane ResizeWidth="*" ResizeHeight="*" EffectiveSize="269,585.02" ID="34b70e1e-44a7-4dfe-9424-79c7168e66fb" Anchor="Right" IsAutoHidden="false">
+                        <DockableContent Name="Tool;Layers" FloatingWindowSize="250,400" />
+                    </DockablePane>
+                </ResizingPanel>
+            </ResizingPanel>
+        </ResizingPanel>
+        <DockablePane ResizeWidth="*" ResizeHeight="262.02" EffectiveSize="1578,262.02" ID="8a4ca0ab-67ef-4c4e-a6f4-27b9b649e12f" Anchor="Bottom" IsAutoHidden="false">
+            <DockableContent Name="Tool;Bindings" FloatingWindowSize="696,1056" ChildIndex="0" Width="1125" Height="338" Anchor="Bottom" State="Docked" />
+        </DockablePane>
+    </ResizingPanel>
+    <Hidden />
+    <Windows />
+</DockingManager>

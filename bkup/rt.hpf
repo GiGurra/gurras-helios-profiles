@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HeliosProfile>
+  <Version>3</Version>
+  <Monitors>
+    <Monitor>
+      <Location>0,0</Location>
+      <Size>1920,1200</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background />
+      <Children>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button" SnapTarget="True" Locked="False">
+          <Location>52,88</Location>
+          <Size>210,219</Size>
+          <Type>Momentary</Type>
+          <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+          <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+          <Children />
+        </Control>
+      </Children>
+    </Monitor>
+    <Monitor>
+      <Location>1920,0</Location>
+      <Size>1920,1080</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>1920,1080</Location>
+      <Size>1024,768</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button" SnapTarget="True" Locked="False">
+          <Location>472,12</Location>
+          <Size>552,756</Size>
+          <Type>Momentary</Type>
+          <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+          <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+          <Children />
+        </Control>
+      </Children>
+    </Monitor>
+    <Monitor>
+      <Location>2944,1848</Location>
+      <Size>600,800</Size>
+      <Orientation>DMDO_90</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button" SnapTarget="True" Locked="False">
+          <Location>0,0</Location>
+          <Size>600,800</Size>
+          <Type>Momentary</Type>
+          <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+          <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+          <Children />
+        </Control>
+      </Children>
+    </Monitor>
+    <Monitor>
+      <Location>2944,1080</Location>
+      <Size>1024,768</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button" SnapTarget="True" Locked="False">
+          <Location>0,0</Location>
+          <Size>1024,768</Size>
+          <Type>Momentary</Type>
+          <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+          <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+          <Children />
+        </Control>
+      </Children>
+    </Monitor>
+    <Monitor>
+      <Location>3968,1080</Location>
+      <Size>1024,768</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Push Button" SnapTarget="True" Locked="False">
+          <Location>0,0</Location>
+          <Size>1024,768</Size>
+          <Type>Momentary</Type>
+          <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+          <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+          <Children />
+        </Control>
+      </Children>
+    </Monitor>
+  </Monitors>
+  <Interfaces>
+    <Interface TypeIdentifier="Helios.Base.ProfileInterface" Name="Profile" />
+    <Interface TypeIdentifier="Helios.Base.Keyboard" Name="Keyboard">
+      <KeyDelay>30</KeyDelay>
+    </Interface>
+  </Interfaces>
+  <Bindings />
+</HeliosProfile>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HeliosProfile>
+  <Version>3</Version>
+  <Monitors>
+    <Monitor>
+      <Location>0,0</Location>
+      <Size>1920,1200</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FF0B0A0A</Color>
+      </Background>
+      <Children>
+        <Control TypeIdentifier="Helios.Panel" Name="3way_ud_toggle_centered 1" SnapTarget="True" Locked="False">
+          <Location>250,5</Location>
+          <Size>175,230</Size>
+          <Hidden>False</Hidden>
+          <Background>
+            <Color>#FF1E1E1E</Color>
+          </Background>
+          <Children>
+            <Control TypeIdentifier="Helios.Base.Text" Name="UpLabel" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>24</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>Up      Label</Text>
+              <Location>7,3</Location>
+              <Size>97,62</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="RightLabel" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>24</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>Right       Label</Text>
+              <Location>97,89</Location>
+              <Size>72,72</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="DownLabel" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>24</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>Down   Label</Text>
+              <Location>0,164</Location>
+              <Size>108,65</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Switch" SnapTarget="True" Locked="False">
+              <Location>8,21</Location>
+              <Size>90,180</Size>
+              <SwitchType>OnOnOn</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Touch</ClickType>
+              <PositionOneImage>{Helios}/Images/Toggles/round-up.png</PositionOneImage>
+              <PositionTwoImage>{Helios}/Images/Toggles/round-norm.png</PositionTwoImage>
+              <PositionThreeImage>{Helios}/Images/Toggles/round-down.png</PositionThreeImage>
+              <DefaultPosition>Two</DefaultPosition>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="DownActivationArea" SnapTarget="True" Locked="False">
+              <Location>0,146</Location>
+              <Size>98,84</Size>
+              <Type>Momentary</Type>
+              <Image />
+              <PushedImage />
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="RightActivationArea" SnapTarget="True" Locked="False">
+              <Location>80,77</Location>
+              <Size>89,84</Size>
+              <Type>Momentary</Type>
+              <Image />
+              <PushedImage />
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="UpActivationArea" SnapTarget="True" Locked="False">
+              <Location>0,2</Location>
+              <Size>91,91</Size>
+              <Type>Momentary</Type>
+              <Image />
+              <PushedImage />
+              <Children />
+            </Control>
+          </Children>
+        </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="2way_ud_toggle_down 1" SnapTarget="True" Locked="False">
+          <Location>125,5</Location>
+          <Size>125,230</Size>
+          <Hidden>False</Hidden>
+          <Background>
+            <Color>#FF1E1E1E</Color>
+          </Background>
+          <Children>
+            <Control TypeIdentifier="Helios.Base.Text" Name="TopLabel" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>24</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>ON</Text>
+              <Location>32,23</Location>
+              <Size>60,42</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="BottomLabel" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>24</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>OFF</Text>
+              <Location>5,168</Location>
+              <Size>115,44</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Switch" SnapTarget="True" Locked="False">
+              <Location>18,20</Location>
+              <Size>90,180</Size>
+              <SwitchType>OnOn</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Touch</ClickType>
+              <PositionOneImage>{Helios}/Images/Toggles/flattop-up.png</PositionOneImage>
+              <PositionTwoImage>{Helios}/Images/Toggles/flattop-down.png</PositionTwoImage>
+              <DefaultPosition>Two</DefaultPosition>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="ActivationAreaDown" SnapTarget="True" Locked="False">
+              <Location>0,110</Location>
+              <Size>125,110</Size>
+              <Type>Momentary</Type>
+              <Image />
+              <PushedImage />
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="ActivationAreaUp" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>125,110</Size>
+              <Type>Momentary</Type>
+              <Image />
+              <PushedImage />
+              <Children />
+            </Control>
+          </Children>
+        </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="2way_ud_toggle_down 1 1" SnapTarget="True" Locked="False">
+          <Location>0,5</Location>
+          <Size>125,230</Size>
+          <Hidden>False</Hidden>
+          <Background>
+            <Color>#FF1E1E1E</Color>
+          </Background>
+          <Children>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push - White" SnapTarget="True" Locked="False">
+              <Location>20,70</Location>
+              <Size>85,85</Size>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/white-push.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/white-push-in.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="TopLabel" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>24</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>ON</Text>
+              <Location>32,23</Location>
+              <Size>60,42</Size>
+              <Children />
+            </Control>
+          </Children>
+        </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="2way_lr_toggle_left 1 2" SnapTarget="True" Locked="False">
+          <Location>0,235</Location>
+          <Size>230,125</Size>
+          <Hidden>False</Hidden>
+          <Background>
+            <Color>#FF1E1E1E</Color>
+          </Background>
+          <Children>
+            <Control TypeIdentifier="Helios.Base.Text" Name="RightLabel" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>24</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Center</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>ON</Text>
+              <Location>167,0</Location>
+              <Size>63,125</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="LeftLabel" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>24</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Center</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>OFF</Text>
+              <Location>4,0</Location>
+              <Size>53,125</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Switch" SnapTarget="True" Locked="False">
+              <Location>28,18</Location>
+              <Size>90,180</Size>
+              <Rotation>CCW</Rotation>
+              <SwitchType>OnOn</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Touch</ClickType>
+              <PositionOneImage>{Helios}/Images/Toggles/flattop-up.png</PositionOneImage>
+              <PositionTwoImage>{Helios}/Images/Toggles/flattop-down.png</PositionTwoImage>
+              <DefaultPosition>Two</DefaultPosition>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="ActivationAreaRight" SnapTarget="True" Locked="False">
+              <Location>120,0</Location>
+              <Size>113,130</Size>
+              <Type>Momentary</Type>
+              <Image />
+              <PushedImage />
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="ActivationAreaLeft" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>120,130</Size>
+              <Type>Momentary</Type>
+              <Image />
+              <PushedImage />
+              <Children />
+            </Control>
+          </Children>
+        </Control>
+        <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Rotary - Knob 4" SnapTarget="True" Locked="False">
+          <Location>230,235</Location>
+          <Size>150,150</Size>
+          <KnobImage>{Helios}/Images/Knobs/knob4.png</KnobImage>
+          <Positions>
+            <Position Name="0" Rotation="0" />
+            <Position Name="1" Rotation="90" />
+          </Positions>
+          <DefaultPosition>1</DefaultPosition>
+          <Lines>
+            <Thickness>2</Thickness>
+            <Length>0.9</Length>
+            <Color>#FFFFFFFF</Color>
+          </Lines>
+          <Labels>
+            <Color>#FFFFFFFF</Color>
+            <MaxWidth>40</MaxWidth>
+            <MaxHeight>0</MaxHeight>
+            <Distance>1</Distance>
+            <FontFamily>Franklin Gothic</FontFamily>
+            <FontStyle>Normal</FontStyle>
+            <FontWeight>Normal</FontWeight>
+            <FontSize>12</FontSize>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Top</VerticalAlignment>
+            <Padding>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Right>0</Right>
+              <Bottom>0</Bottom>
+            </Padding>
+          </Labels>
+          <ClickType>
+            <Type>Swipe</Type>
+            <Sensitivity>0</Sensitivity>
+          </ClickType>
+          <Children />
+        </Control>
+      </Children>
+    </Monitor>
+    <Monitor>
+      <Location>1920,0</Location>
+      <Size>1920,1080</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>2944,1848</Location>
+      <Size>600,800</Size>
+      <Orientation>DMDO_90</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>1920,1080</Location>
+      <Size>1024,768</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FF020202</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>2944,1080</Location>
+      <Size>1024,768</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>3968,1080</Location>
+      <Size>1024,768</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+  </Monitors>
+  <Interfaces>
+    <Interface TypeIdentifier="Helios.Base.ProfileInterface" Name="Profile" />
+    <Interface TypeIdentifier="Helios.Base.Keyboard" Name="Keyboard">
+      <KeyDelay>30</KeyDelay>
+    </Interface>
+  </Interfaces>
+  <Bindings>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.3way_ud_toggle_centered 1.DownActivationArea;Helios.Base.PushButton;DownActivationArea" Name="pushed" />
+      <Action Target="Visual;Monitor 1.3way_ud_toggle_centered 1.Switch;Helios.Base.ThreeWayToggleSwitch;Switch" Name="set.position" />
+      <StaticValue>3</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.3way_ud_toggle_centered 1.RightActivationArea;Helios.Base.PushButton;RightActivationArea" Name="pushed" />
+      <Action Target="Visual;Monitor 1.3way_ud_toggle_centered 1.Switch;Helios.Base.ThreeWayToggleSwitch;Switch" Name="set.position" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.3way_ud_toggle_centered 1.UpActivationArea;Helios.Base.PushButton;UpActivationArea" Name="pushed" />
+      <Action Target="Visual;Monitor 1.3way_ud_toggle_centered 1.Switch;Helios.Base.ThreeWayToggleSwitch;Switch" Name="set.position" />
+      <StaticValue>1</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.2way_ud_toggle_down 1.ActivationAreaDown;Helios.Base.PushButton;ActivationAreaDown" Name="pushed" />
+      <Action Target="Visual;Monitor 1.2way_ud_toggle_down 1.Switch;Helios.Base.ToggleSwitch;Switch" Name="set.position" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.2way_ud_toggle_down 1.ActivationAreaUp;Helios.Base.PushButton;ActivationAreaUp" Name="pushed" />
+      <Action Target="Visual;Monitor 1.2way_ud_toggle_down 1.Switch;Helios.Base.ToggleSwitch;Switch" Name="set.position" />
+      <StaticValue>1</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.2way_lr_toggle_left 1 2.ActivationAreaRight;Helios.Base.PushButton;ActivationAreaRight" Name="pushed" />
+      <Action Target="Visual;Monitor 1.2way_lr_toggle_left 1 2.Switch;Helios.Base.ToggleSwitch;Switch" Name="set.position" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.2way_lr_toggle_left 1 2.ActivationAreaLeft;Helios.Base.PushButton;ActivationAreaLeft" Name="pushed" />
+      <Action Target="Visual;Monitor 1.2way_lr_toggle_left 1 2.Switch;Helios.Base.ToggleSwitch;Switch" Name="set.position" />
+      <StaticValue>1</StaticValue>
+    </Binding>
+  </Bindings>
+</HeliosProfile>

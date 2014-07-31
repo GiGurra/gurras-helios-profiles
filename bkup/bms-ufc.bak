@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HeliosProfile>
+  <Version>3</Version>
+  <Monitors>
+    <Monitor>
+      <Location>0,0</Location>
+      <Size>1920,1200</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background />
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>1920,0</Location>
+      <Size>1920,1080</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>1920,1080</Location>
+      <Size>1024,768</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background />
+      <Children>
+        <Control TypeIdentifier="Helios.Panel" Name="Panel 2" SnapTarget="True" Locked="False">
+          <Location>285,0</Location>
+          <Size>739,38</Size>
+          <Hidden>False</Hidden>
+          <Background>
+            <Color>#FF1E1E1E</Color>
+          </Background>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="Panel 2 1" SnapTarget="True" Locked="False">
+          <Location>285,733</Location>
+          <Size>739,35</Size>
+          <Hidden>False</Hidden>
+          <Background>
+            <Color>#FF1E1E1E</Color>
+          </Background>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="ArmSilenceEcmPanel" SnapTarget="True" Locked="False">
+          <Location>0,0</Location>
+          <Size>328,506</Size>
+          <Hidden>False</Hidden>
+          <Background>
+            <Color>#FF1E1E20</Color>
+            <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+            <ImageAlignment>Stretched</ImageAlignment>
+          </Background>
+          <Border>
+            <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+            <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+            <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+            <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+            <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+            <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+            <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+            <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+          </Border>
+          <Children>
+            <Control TypeIdentifier="Helios.Base.Indicator" Name="Green Light 3" SnapTarget="True" Locked="False">
+              <OnImage>{Helios}/Images/Indicators/green-light-off.png</OnImage>
+              <OffImage>{Helios}/Images/Indicators/green-light-off.png</OffImage>
+              <Font>
+                <FontFamily>Arial</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Black</FontWeight>
+                <FontSize>16</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Center</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>ECM</Text>
+              <OnTextColor>#FF18FF00</OnTextColor>
+              <OffTextColor>#FF1C1C1C</OffTextColor>
+              <Location>125,209</Location>
+              <Size>75,75</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="LaserArmLabel" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>14</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>Laser             Arm</Text>
+              <Location>24,180</Location>
+              <Size>60,42</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="LaserArmLabel 1" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>14</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>MASTER ARM</Text>
+              <Location>118,342</Location>
+              <Size>90,25</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="LaserArmLabel 1 1" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>14</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>RF                  NORM</Text>
+              <Location>140,42</Location>
+              <Size>46,39</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="LaserArmLabel 2" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>14</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>Off</Text>
+              <Location>24,284</Location>
+              <Size>60,42</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="LaserArmLabel 1 2" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>14</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>OFF</Text>
+              <Location>199,382</Location>
+              <Size>35,19</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="LaserArmLabel 1 3" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>14</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>SIMULATE</Text>
+              <Location>118,421</Location>
+              <Size>90,25</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="LaserArmLabel 1 1 1" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>14</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>SILENT</Text>
+              <Location>141,140</Location>
+              <Size>44,18</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="LaserArmLabel 1 1 2" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>14</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>QUIET</Text>
+              <Location>196,98</Location>
+              <Size>46,18</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="LaserArmSwitch" SnapTarget="True" Locked="False">
+              <Location>25,184</Location>
+              <Size>60,120</Size>
+              <SwitchType>OnOn</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Touch</ClickType>
+              <PositionOneImage>{Helios}/Images/Toggles/flattop-up.png</PositionOneImage>
+              <PositionTwoImage>{Helios}/Images/Toggles/flattop-down.png</PositionTwoImage>
+              <DefaultPosition>Two</DefaultPosition>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="MasterArmSwitch" SnapTarget="True" Locked="False">
+              <Location>133,329</Location>
+              <Size>60,120</Size>
+              <SwitchType>OnOnOn</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Touch</ClickType>
+              <PositionOneImage>{Helios}/Images/Toggles/round-up.png</PositionOneImage>
+              <PositionTwoImage>{Helios}/Images/Toggles/round-norm.png</PositionTwoImage>
+              <PositionThreeImage>{Helios}/Images/Toggles/round-down.png</PositionThreeImage>
+              <DefaultPosition>Two</DefaultPosition>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="SilentSwitch" SnapTarget="True" Locked="False">
+              <Location>133,44</Location>
+              <Size>60,120</Size>
+              <SwitchType>OnOnOn</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Touch</ClickType>
+              <PositionOneImage>{Helios}/Images/Toggles/round-up.png</PositionOneImage>
+              <PositionTwoImage>{Helios}/Images/Toggles/round-norm.png</PositionTwoImage>
+              <PositionThreeImage>{Helios}/Images/Toggles/round-down.png</PositionThreeImage>
+              <DefaultPosition>One</DefaultPosition>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="MasterArmActivationArea" SnapTarget="True" Locked="False">
+              <Location>120,321</Location>
+              <Size>85,137</Size>
+              <Type>Momentary</Type>
+              <Image />
+              <PushedImage />
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="LaserArmActivationArea" SnapTarget="True" Locked="False">
+              <Location>13,167</Location>
+              <Size>86,143</Size>
+              <Type>Momentary</Type>
+              <Image />
+              <PushedImage />
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="SilentSwitchActivationArea" SnapTarget="True" Locked="False">
+              <Location>121,27</Location>
+              <Size>84,147</Size>
+              <Type>Momentary</Type>
+              <Image />
+              <PushedImage />
+              <Children />
+            </Control>
+          </Children>
+        </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="Autopilot Panel" SnapTarget="True" Locked="False">
+          <Location>0,506</Location>
+          <Size>328,262</Size>
+          <Hidden>False</Hidden>
+          <Background>
+            <Color>#FF1E1E20</Color>
+            <Image>{F16GaugePack}/Images/f16_panel_background.png</Image>
+            <ImageAlignment>Stretched</ImageAlignment>
+          </Background>
+          <Border>
+            <TopLeftCorner>{F16GaugePack}/Images/f16_panel_top_left_corner.png</TopLeftCorner>
+            <TopBorder>{F16GaugePack}/Images/f16_panel_top_border.png</TopBorder>
+            <TopRightCorner>{F16GaugePack}/Images/f16_panel_top_right_corner.png</TopRightCorner>
+            <RightBorder>{F16GaugePack}/Images/f16_panel_border_right.png</RightBorder>
+            <BottomRightCorner>{F16GaugePack}/Images/f16_panel_bottom_right_corner.png</BottomRightCorner>
+            <BottomBorder>{F16GaugePack}/Images/f16_panel_bottom_border.png</BottomBorder>
+            <BottomLeftCorner>{F16GaugePack}/Images/f16_panel_bottom_left_croner.png</BottomLeftCorner>
+            <LeftBorder>{F16GaugePack}/Images/f16_panel_border_left.png</LeftBorder>
+          </Border>
+          <Children>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="ApPitchSwitch" SnapTarget="True" Locked="False">
+              <Location>152,111</Location>
+              <Size>60,120</Size>
+              <SwitchType>OnOnOn</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Swipe</ClickType>
+              <PositionOneImage>{Helios}/Images/Toggles/round-up.png</PositionOneImage>
+              <PositionTwoImage>{Helios}/Images/Toggles/round-norm.png</PositionTwoImage>
+              <PositionThreeImage>{Helios}/Images/Toggles/round-down.png</PositionThreeImage>
+              <DefaultPosition>Two</DefaultPosition>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="label" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>12</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>Pitch hold</Text>
+              <Location>151,117</Location>
+              <Size>60,20</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="label 1" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>12</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>Att hold</Text>
+              <Location>151,209</Location>
+              <Size>60,20</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Indicator" Name="Indicator" SnapTarget="True" Locked="False">
+              <OnImage>{Helios}/Images/Indicators/caution-indicator-on.png</OnImage>
+              <OffImage>{Helios}/Images/Indicators/caution-indicator-off.png</OffImage>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>12</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Center</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>Active</Text>
+              <OnTextColor>#FFB3A229</OnTextColor>
+              <OffTextColor>#FF1C1C1C</OffTextColor>
+              <Location>116,17</Location>
+              <Size>92,65</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="label 2" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>12</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>Roll hdg     select</Text>
+              <Location>67,109</Location>
+              <Size>56,41</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="label 2 1" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>12</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>Strg select</Text>
+              <Location>62,209</Location>
+              <Size>56,29</Size>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="ApRollSwitch" SnapTarget="True" Locked="False">
+              <Location>63,111</Location>
+              <Size>60,120</Size>
+              <SwitchType>OnOnOn</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Swipe</ClickType>
+              <PositionOneImage>{Helios}/Images/Toggles/round-up.png</PositionOneImage>
+              <PositionTwoImage>{Helios}/Images/Toggles/round-norm.png</PositionTwoImage>
+              <PositionThreeImage>{Helios}/Images/Toggles/round-down.png</PositionThreeImage>
+              <DefaultPosition>Two</DefaultPosition>
+              <Children />
+            </Control>
+          </Children>
+        </Control>
+      </Children>
+    </Monitor>
+    <Monitor>
+      <Location>2944,1848</Location>
+      <Size>600,800</Size>
+      <Orientation>DMDO_90</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>2944,1080</Location>
+      <Size>1024,768</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+    <Monitor>
+      <Location>3968,1080</Location>
+      <Size>1024,768</Size>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <Background>
+        <Color>#FFA9A9A9</Color>
+      </Background>
+      <Children />
+    </Monitor>
+  </Monitors>
+  <Interfaces>
+    <Interface TypeIdentifier="Helios.Base.ProfileInterface" Name="Profile" />
+    <Interface TypeIdentifier="Helios.Base.Keyboard" Name="Keyboard">
+      <KeyDelay>30</KeyDelay>
+    </Interface>
+    <Interface TypeIdentifier="Helios.Falcon.Interface" Name="Falcon">
+      <FalconType>OpenFalcon</FalconType>
+      <KeyFile>config\OFKeystrokes.key</KeyFile>
+      <CockpitDatFile />
+    </Interface>
+  </Interfaces>
+  <Bindings>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="ECM.power indicator.changed" />
+      <Action Target="Visual;Monitor 3.ArmSilenceEcmPanel.Green Light 3;Helios.Base.Indicator;Green Light 3" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 3.ArmSilenceEcmPanel.LaserArmSwitch;Helios.Base.ToggleSwitch;LaserArmSwitch" Name="position one.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimLaserArmOn</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 3.ArmSilenceEcmPanel.LaserArmSwitch;Helios.Base.ToggleSwitch;LaserArmSwitch" Name="position two.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimLaserArmOff</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 3.ArmSilenceEcmPanel.MasterArmSwitch;Helios.Base.ThreeWayToggleSwitch;MasterArmSwitch" Name="position one.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimArmMasterArm</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 3.ArmSilenceEcmPanel.MasterArmSwitch;Helios.Base.ThreeWayToggleSwitch;MasterArmSwitch" Name="position two.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimSafeMasterArm</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 3.ArmSilenceEcmPanel.MasterArmSwitch;Helios.Base.ThreeWayToggleSwitch;MasterArmSwitch" Name="position three.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimSimMasterArm</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 3.ArmSilenceEcmPanel.SilentSwitch;Helios.Base.ThreeWayToggleSwitch;SilentSwitch" Name="position one.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimRFNorm</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 3.ArmSilenceEcmPanel.SilentSwitch;Helios.Base.ThreeWayToggleSwitch;SilentSwitch" Name="position two.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimRFQuiet</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 3.ArmSilenceEcmPanel.SilentSwitch;Helios.Base.ThreeWayToggleSwitch;SilentSwitch" Name="position three.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimRFSilent</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 3.ArmSilenceEcmPanel.MasterArmActivationArea;Helios.Base.PushButton;MasterArmActivationArea" Name="pushed" />
+      <Action Target="Visual;Monitor 3.ArmSilenceEcmPanel.MasterArmSwitch;Helios.Base.ThreeWayToggleSwitch;MasterArmSwitch" Name="set.position" />
+      <LuaScript>if (cycle3var==nil) then
+   cycle3var = 2;
+end
+
+cycle3var = cycle3var + 1;
+if (cycle3var&gt;3) then
+   cycle3var = 1;
+end
+
+return cycle3var;</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 3.ArmSilenceEcmPanel.LaserArmActivationArea;Helios.Base.PushButton;LaserArmActivationArea" Name="pushed" />
+      <Action Target="Visual;Monitor 3.ArmSilenceEcmPanel.LaserArmSwitch;Helios.Base.ToggleSwitch;LaserArmSwitch" Name="set.position" />
+      <LuaScript>if (cycle2var==nil) then
+   cycle2var = 2;
+end
+
+cycle2var = cycle2var + 1;
+if (cycle2var &gt;2) then
+   cycle2var = 1;
+end
+
+return cycle2var;</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 3.ArmSilenceEcmPanel.SilentSwitchActivationArea;Helios.Base.PushButton;SilentSwitchActivationArea" Name="pushed" />
+      <Action Target="Visual;Monitor 3.ArmSilenceEcmPanel.SilentSwitch;Helios.Base.ThreeWayToggleSwitch;SilentSwitch" Name="set.position" />
+      <LuaScript>if (cycle3var==nil) then
+   cycle3var = 2;
+end
+
+cycle3var = cycle3var + 1;
+if (cycle3var&gt;3) then
+   cycle3var = 1;
+end
+
+return cycle3var;</LuaScript>
+    </Binding>
+  </Bindings>
+</HeliosProfile>
